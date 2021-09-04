@@ -44,20 +44,6 @@
     margin-bottom: 20px;
 }
 
-.month-header::before {
-    content: url('/img/line.svg');
-    color:#A4B8C4;
-    margin-right: 10px;
-    width: 20%;
-}
-
-.month-header::after {
-    content: url('/img/line.svg');
-    color:#A4B8C4;
-    margin-left: 10px;
-    width: 20%;
-}
-
 .spending {
     display: flex;
     justify-content: space-around;
