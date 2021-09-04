@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    background-color:#C8D3D5;
+    color: #6E8387;
+    height: 100%;
+    font-family: 'Cabin', sans-serif;
+    padding-bottom: 40px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+
+.header {
+    background: linear-gradient(180deg, #006838 -68.56%, rgba(0, 104, 56, 0) 100%), #39B54A;
+    text-align: center;
+    height: 200px;
+    padding-top: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid #fcfafa;
+}
+.header img {
+    width: 60%;
+    max-width: 300px;
+}
+.top-stats {
+    background-color: #FCFAFA;
+    margin: -50px auto 0;
+    width: 90%;
+    border-top: solid 1px #fcfafa;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.month-header {
+    margin-bottom: 20px;
+}
+
+.month-header::before {
+    content: url('/img/line.svg');
+    color:#A4B8C4;
+    margin-right: 10px;
+}
+
+.month-header::after {
+    content: url('/img/line.svg');
+    color:#A4B8C4;
+    margin-left: 10px;
+}
+
+.spending {
+    display: flex;
+    justify-content: space-around;
+}
+
+.spending-box {
+    width: 30%;
+}
+
+.spending-box:nth-child(3) {
+    border-left: 1px dashed #A4B8C4;
+}
+
+.spending-box:nth-child(1) {
+    border-right: 1px dashed #A4B8C4;
+}
+
+.progress-bar {
+    width: 90%;
+    background-color: #FCFAFA;
+    height: 15px;
+    margin: auto;
+    display: flex;
+    border-top: 1px solid #C8D3D5;
+}
+
+.top-stats-savings {
+    background-color: #9EE09E;
+    height: 100%;
+    width: 15%;
+}
+
+.top-stats-spending {
+    background-color: #FF6663;
+    height: 100%;
+    width: 35%;
+}
+
+.add-transaction {
+    background: #2F3233;
+    width: 90%;
+    margin: 10px auto;
+    border-top: solid 1px #2F3233;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    color: #FCFAFA;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+#collections {
+    width: 90%;
+    margin:  25px auto;
+}
+
+.collection-card {
+    background-color: #FCFAFA;
+    border: 1px solid #FCFAFA;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.collection-card h3 {
+    width: 100%;
+    color: #FCFAFA;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fcfafa;
+}
+
+.collection-categories ul {
+    list-style: none;
+}
+
+.collection-categories li {
+    width: 95%;
+    margin: 0 auto 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C8D3D5;
+}
+
+.collection-card-savings {
+    border: 1px solid #39B54A;
+    background-color: #39B54A;
+}
+
+.collection-card-spending {
+    background: linear-gradient(219.63deg, #6E8387 -19.12%, rgba(248, 249, 249, 0.046875) 189.26%, rgba(255, 255, 255, 0) 189.28%), #C8D3D5;
+    background-blend-mode: multiply, normal;
+}
+
+.collection-card-debt {
+    border: 1px solid #FEB144;
+    background-color: #FEB144;
+}
+
+#bottom-bar {
+    width: 100%;
+    max-width: 600px;
+    height: 75px;
+    background: #2F3233;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    bottom: 0;
+    color: #fcfafa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.footer-container {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #fcfafa;
+    width: 100%;
+}
+
+.light a {
+    color: #2F3233;
+}
+
+.light {
+    background-color: #fcfafa;
+}
+
+.icon-light {
+    fill: #fcfafa;
+}
+
+.icon-dark {
+    fill: #2F3233;
+}
