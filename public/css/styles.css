@@ -207,7 +207,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    top: 0;
+    top: -20px;
     display: flex;
     justify-content: center;
     align-items: center;
