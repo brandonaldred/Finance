@@ -252,6 +252,7 @@ select {
 
 .form-submit {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .form-submit button {
