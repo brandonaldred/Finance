@@ -207,7 +207,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    top: -50px;
+    top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,7 +222,7 @@ body {
     opacity: 1;
     box-sizing: border-box;
     padding: 40px;
-    margin: auto;
+    margin: -50px auto;
 }
 
 label {
