@@ -97,6 +97,7 @@ body {
     color: #FCFAFA;
     text-transform: uppercase;
     padding: 20px 0;
+    cursor: pointer;
 }
 
 #collections {
@@ -208,7 +209,7 @@ body {
     height: 100vh;
     position: fixed;
     top: 0px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -282,4 +283,33 @@ select {
 .delete-button img {
     margin-right: 5px;
     height: 80%;
+}
+
+.close-container {
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.close-container p {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.alert {
+    font-size: 14px !important;
+    color: #FF6663;
+    display: flex;
+    align-items: center;
+}
+
+.alert img {
+    margin-right: 5px;
+}
+
+.close-container img {
+    margin-left: 5px;
 }

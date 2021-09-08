@@ -1,0 +1,23 @@
+<div id="modal">
+    <div id="modal-content">
+        <div class="close-container"><p class="alert"></p><p>Close<img src="img/close-slate.svg"></p></div>
+        <form action="/" method="POST">
+            <label for="date">Date</label>
+            <input id="date" name="date" type="date" /><br />
+            <label for="merchant">Merchant</label>
+            <input id="merchant" name="merchant" type="text" /><br />
+            <label for="category">Category</label>
+            <select id="category" name="category">
+                <option>One</option>
+                <option>Two</option>
+                <option>Three</option>
+            </select><br />
+            <label for="amount">Amount</label>
+            <input id="amount" name="amount" type="number" /><br />
+            <div class="form-submit">
+                <button class="save-button" type="submit">Save</button>
+                <button class="delete-button" type="reset"><img src="img/trash.svg">Delete</button>
+            </div>
+        </form>
+    </div>
+</div>
